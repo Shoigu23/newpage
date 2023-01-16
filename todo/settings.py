@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 import os
 from pathlib import Path
+
 # from psycopg2._psycopg import BINARY, NUMBER, STRING, DATETIME, ROWID
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -81,7 +82,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-
 }
 
 # DATABASES = {
@@ -94,7 +94,6 @@ DATABASES = {
 #         'PORT': '5432',
 #     }
 # }
-
 
 
 # Password validation
